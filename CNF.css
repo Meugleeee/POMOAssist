@@ -9,7 +9,7 @@ body{
 }
 
 .background-image {
-    background-image: url('images/CNF.jpg'); /* Replace 'background.jpg' with your image file */
+    background-image: url('CNF.jpg'); /* Replace 'background.jpg' with your image file */
     background-size: cover;
     background-position: center;
     position: fixed;
