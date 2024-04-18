@@ -9,7 +9,7 @@ body{
 }
 
 .background-image {
-    background-image: url('images/21st.jpg'); /* Replace 'background.jpg' with your image file */
+    background-image: url('21st.jpg'); /* Replace 'background.jpg' with your image file */
     background-size: cover;
     background-position: center;
     position: fixed;
