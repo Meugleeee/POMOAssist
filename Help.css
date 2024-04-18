@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set blue background color for the entire page */
+  body {
+    background-color: #cfe0fc; /* Light blue background */
+  }
+  
+  /* Center content vertically and horizontally */
+  html, body {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Styles for contact container */
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Styles for contact boxes */
+  .contact-box {
+    background-color: white; /* White background for contact boxes */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-box p {
+    margin: 5px 0;
+  }
+  
+  /* Styles for headings */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  

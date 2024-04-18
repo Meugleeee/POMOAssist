@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #38B6FF;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.ID,
+.Pass {
+    display: block;
+    padding: 0.8em;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+.login,
+.signup,
+.about {
+    padding: 0.8em;
+    border-radius: 15px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    margin: 10px auto;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    color: white; /* Button text color */
+}
+
+.login {
+    background-color: #45d129; /* Login button color */
+}
+
+.signup {
+    background-color: #3C3744; /* Sign-up button color */
+}
+
+.about {
+    background-color: #FFFFFF; /* About button color */
+    color: #000000; /* Adjusted button text color */
+}
+
+.login:hover,
+.signup:hover,
+.about:hover {
+    filter: brightness(90%); /* Adjust brightness on hover */
+}
+
+.login:active,
+.signup:active,
+.about:active {
+    transform: scale(0.95);
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.block {
+    height: 20px; /* Adjust spacing */
+}
